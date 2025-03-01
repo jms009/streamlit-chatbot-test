@@ -25,6 +25,17 @@ This project is for testing how **Streamlit** can be used to build a simple chat
 
 ---
 
+## 🌐 Live Demo
+You can try this chatbot directly without running the code locally:  
+👉 **[Live Demo on Streamlit](https://app-chatbot-test.streamlit.app/)**
+
+⚠️ **Important:**  
+The demo will only work properly with the sample file `test_data.xlsx`.  
+If the required file or matching data is not found, the chatbot will return:  
+❌ *"No matching record found."*
+
+---
+
 ## 🚀 How to Run (for Testing)
 1. Place `test_data.xlsx` in the same folder as your code (`app.py`).
 2. Run the app using:
@@ -33,15 +44,6 @@ This project is for testing how **Streamlit** can be used to build a simple chat
     ```
 3. Start chatting with the bot directly in the Streamlit web app.
 
----
-
-## 📦 Requirements
-- streamlit
-- pandas
-- openpyxl (for Excel reading)
-
-Install dependencies using:
-pip install streamlit pandas openpyxl
 
 ---
 
