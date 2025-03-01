@@ -1,1 +1,53 @@
-# streamlit-chatbot-test
+# 📦 Test Chatbot - Streamlit App
+
+This is a **test chatbot application** created using **Streamlit**.  
+The chatbot helps simulate a basic conversation flow where users can query **test data** stored in an Excel file (`test_data.xlsx`).  
+It mimics a messaging app interface for a more user-friendly experience.
+
+---
+
+## 💡 Purpose
+This project is for testing how **Streamlit** can be used to build a simple chatbot interface that interacts with an external data source (Excel file).
+
+---
+
+## 📋 How It Works
+1. Users start by typing 'START'.
+2. The chatbot asks what the user wants to check:  
+   - `Status`
+   - `Transfer Reason`
+   - `Both`
+3. After choosing, the chatbot will ask for:
+   - `Activity Number`
+   - `Customer Number`
+4. Based on the input, the chatbot will search the Excel file for matching data and display the result.
+5. The user can type 'START' again to restart the process.
+
+---
+
+## 🚀 How to Run (for Testing)
+1. Place `test_data.xlsx` in the same folder as your code (`app.py`).
+2. Run the app using:
+    ```
+    streamlit run app.py
+    ```
+3. Start chatting with the bot directly in the Streamlit web app.
+
+---
+
+## 📦 Requirements
+- streamlit
+- pandas
+- openpyxl (for Excel reading)
+
+Install dependencies using:
+pip install streamlit pandas openpyxl
+
+---
+
+## 📚 Notes
+- This is a **test project** and not intended for production use.
+- Data is static and only fetched from a local Excel file.
+- The chatbot logic is basic and designed for learning purposes only.
+
+---
